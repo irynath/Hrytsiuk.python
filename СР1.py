@@ -25,7 +25,7 @@ def calculate_expression(n):
     result = n + int(str(n) * 2) + int(str(n) * 3)
     return result
 
-n = 5
+n = int(input("Введіть число n: "))
 result = calculate_expression(n)
 print("Результат обчислення:", result)
 
