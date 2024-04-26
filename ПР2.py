@@ -1,6 +1,6 @@
 import math
 
-# Задача 1
+# Завдання 1
 def square_and_fourth_power():
   """Підносить невід'ємні числа до квадрата, а від'ємні до четвертого степеня."""
   num1 = float(input("Введіть перше число: "))
@@ -13,7 +13,7 @@ def square_and_fourth_power():
 
   print("Результати:", result1, result2, result3)
 
-# Задача 2
+# Завдання 2
 def closer_to_origin():
   """Визначає, яка з двох точок ближче до початку координат."""
   x1, y1 = map(float, input("Введіть координати точки A (x1, y1): ").split())
@@ -29,7 +29,7 @@ def closer_to_origin():
   else:
     print("Точки A і B знаходяться на однаковій відстані від початку координат.")
 
-# Задача 3
+# Завдання 3
 def triangle_check():
   """Перевіряє, чи існує трикутник з заданими кутами і чи є він прямокутним."""
   angle1 = float(input("Введіть перший кут трикутника (в градусах): "))
@@ -45,7 +45,7 @@ def triangle_check():
     else:
       print("Трикутник не прямокутний.")
 
-# Задача 4
+# Завдання 4
 def replace_numbers():
   """Замінює числа згідно з умовами."""
   x = float(input("Введіть число x: "))
@@ -64,7 +64,7 @@ def replace_numbers():
 
   print("Нові значення x і y:", x, y)
 
-# Задача 5
+# Завдання 5
 def point_location():
   """Визначає розташування точки на площині."""
   x, y = map(float, input("Введіть координати точки A (x, y): ").split())
@@ -84,7 +84,7 @@ def point_location():
   else:
     print("Точка A знаходиться в четвертому координатному куті.")
 
-# Задача 6
+# Завдання 6
 def replace_equal_numbers():
   """Замінює числа згідно з умовами."""
   a = int(input("Введіть ціле число a: "))
@@ -99,28 +99,28 @@ def replace_equal_numbers():
 
   print("Нові значення a і b:", a, b)
 
-# Задача 7
+# Завдання 7
 def count_negative():
   """Підраховує кількість від'ємних чисел."""
   a, b, c = map(float, input("Введіть три числа (a, b, c): ").split())
   count = sum(1 for num in (a, b, c) if num < 0)
   print("Кількість від'ємних чисел:", count)
 
-# Задача 8
+# Завдання 8
 def count_positive():
   """Підраховує кількість додатних чисел."""
   a, b, c = map(float, input("Введіть три числа (a, b, c): ").split())
   count = sum(1 for num in (a, b, c) if num > 0)
   print("Кількість додатних чисел:", count)
 
-# Задача 9
+# Завдання 9
 def count_integers():
   """Підраховує кількість цілих чисел."""
   a, b, c = map(float, input("Введіть три числа (a, b, c): ").split())
   count = sum(1 for num in (a, b, c) if num == int(num))
   print("Кількість цілих чисел:", count)
 
-# Задача 10
+# Завдання 10
 def find_divisors():
   """Визначає, дільником яких чисел є задане число k."""
   a, b, c = map(int, input("Введіть три цілих числа (a, b, c): ").split())
